@@ -1,0 +1,143 @@
+{
+    "name" : "非遗",
+    "appid" : "__UNI__095BCC3",
+    "description" : "每日最新鲜搞笑趣事",
+    "icons" : [
+        {
+            "sizes" : "分辨率，192x192",
+            "src" : "图片路径"
+        }
+    ],
+    "versionName" : "1.0.2",
+    "versionCode" : 102,
+    "app-plus" : {
+        /* 5+App特有相关 */
+        "modules" : {
+            "Speech" : {},
+            "OAuth" : {},
+            "Push" : {},
+            "VideoPlayer" : {},
+            "Share" : {}
+        },
+        "distribute" : {
+            /* 应用发布信息 */
+            "android" : {
+                "schemes" : [ "xybapp" ],
+                /* android打包配置 */
+                "permissions" : [
+                    "<uses-feature android:name=\"android.hardware.camera\"/>",
+                    "<uses-feature android:name=\"android.hardware.camera.autofocus\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.CAMERA\"/>",
+                    "<uses-permission android:name=\"android.permission.CHANGE_NETWORK_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.CHANGE_WIFI_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.FLASHLIGHT\"/>",
+                    "<uses-permission android:name=\"android.permission.INTERNET\"/>",
+                    "<uses-permission android:name=\"android.permission.MODIFY_AUDIO_SETTINGS\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_LOGS\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_PHONE_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.RECORD_AUDIO\"/>",
+                    "<uses-permission android:name=\"android.permission.SYSTEM_ALERT_WINDOW\"/>",
+                    "<uses-permission android:name=\"android.permission.WAKE_LOCK\"/>",
+                    "<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\"/>",
+                    "<uses-permission android:name=\"android.permission.WRITE_SETTINGS\"/>",
+                    "<uses-permission android:name=\"android.permission.RECEIVE_USER_PRESENT\"/>"
+                ]
+            },
+            /* ios打包配置 */
+            "ios" : {
+                "urltypes" : [
+                    {
+                        "urlschemes" : [ "xybapp" ]
+                    }
+                ],
+                "plistcmds" : [
+                    "Set :NSMicrophoneUsageDescription 获取语音权限以进行语音输入",
+                    "Set :NSPhotoLibraryUsageDescription 从相册选择图片作为用户头像",
+                    "Set :NSCameraUsageDescription 用户使用相机拍摄图片作为自定义头像",
+                    "Set :NSPhotoLibraryAddUsageDescription 保存图片到相册"
+                ]
+            },
+            "sdkConfigs" : {
+                "speech" : {
+                    "ifly" : {}
+                },
+                "push" : {
+                    "igexin" : {
+                        "appid" : "ciKgfmo3kB9Vd3b5oq3wn",
+                        "appkey" : "asjeAJPU5y930cW5kuzaC2",
+                        "appsecret" : "zeRGvXAOeq59bH5eMCwfO2"
+                    }
+                }
+            },
+            /* SDK配置 */
+            "orientation" : [ "portrait-primary" ],
+            "icons" : {
+                "ios" : {
+                    "appstore" : "D:/xiaoyibo/logo-1024.png",
+                    "ipad" : {
+                        "app" : "unpackage/res/icons/76x76.png",
+                        "app@2x" : "unpackage/res/icons/152x152.png",
+                        "notification" : "unpackage/res/icons/20x20.png",
+                        "notification@2x" : "unpackage/res/icons/40x40.png",
+                        "proapp@2x" : "unpackage/res/icons/167x167.png",
+                        "settings" : "unpackage/res/icons/29x29.png",
+                        "settings@2x" : "unpackage/res/icons/58x58.png",
+                        "spotlight" : "unpackage/res/icons/40x40.png",
+                        "spotlight@2x" : "unpackage/res/icons/80x80.png"
+                    },
+                    "iphone" : {
+                        "app@2x" : "unpackage/res/icons/120x120.png",
+                        "app@3x" : "unpackage/res/icons/180x180.png",
+                        "notification@2x" : "unpackage/res/icons/40x40.png",
+                        "notification@3x" : "unpackage/res/icons/60x60.png",
+                        "settings@2x" : "unpackage/res/icons/58x58.png",
+                        "settings@3x" : "unpackage/res/icons/87x87.png",
+                        "spotlight@2x" : "unpackage/res/icons/80x80.png",
+                        "spotlight@3x" : "unpackage/res/icons/120x120.png"
+                    }
+                },
+                "android" : {
+                    "hdpi" : "unpackage/res/icons/72x72.png",
+                    "ldpi" : "unpackage/res/icons/48x48.png",
+                    "mdpi" : "unpackage/res/icons/48x48.png",
+                    "xhdpi" : "unpackage/res/icons/96x96.png",
+                    "xxhdpi" : "unpackage/res/icons/144x144.png",
+                    "xxxhdpi" : "unpackage/res/icons/192x192.png"
+                }
+            },
+            "splashscreen" : {
+                "ios" : {
+                    "iphone" : {
+                        "retina47" : "D:/xiaoyibo/750-1334.png",
+                        "retina55" : "D:/xiaoyibo/1242-2208.png",
+                        "iphonex" : "static/tabbar-icon/tabbar-1-1.png"
+                    }
+                },
+                "android" : {
+                    "xxhdpi" : "static/tabbar-icon/tabbar-1-1.png"
+                }
+            }
+        },
+        "splashscreen" : {
+            "alwaysShowBeforeRender" : true,
+            "waiting" : true,
+            "autoclose" : true
+        }
+    },
+    "quickapp" : {},
+    /* 快应用特有相关 */
+    "mp-weixin" : {
+        /* 小程序特有相关 */
+        "appid" : "",
+        "setting" : {
+            "urlCheck" : false,
+            "es6" : false,
+            "minified" : false
+        }
+    },
+    "h5" : {
+        "title" : "非遗"
+    }
+}

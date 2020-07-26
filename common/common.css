@@ -1,0 +1,237 @@
+@font-face {
+	font-family: texticons;
+	font-weight: normal;
+	font-style: normal;
+	src: url('https://at.alicdn.com/t/font_702773_ttt8tj203j.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'iconfont';
+	/* project id 810125 */
+	src: url('https://at.alicdn.com/t/font_810125_yxded5ozno.ttf') format('truetype');
+}
+
+.container{
+	width:100%;
+	display: flex;
+	flex-direction: column;
+}
+.relative{
+	position: relative;
+}
+.absolute{
+	position: absolute;
+}
+.flex{
+	display: flex;
+}
+.row {
+	flex-direction: row;
+}
+
+.column {
+	flex-direction: column;
+}
+
+.f-between{
+	justify-content: space-between;
+}
+.j-center{
+	justify-content: center;
+}
+.f-center{
+	align-items: center;
+}
+
+/* 隐藏scroll-view中滑动时出现的下划线 */
+/* ::-webkit-scrollbar{
+		width:0;
+		height:0;
+		color:transparent;
+	} */
+	
+/* 圆角样式 */
+.b-r-6{
+	border-radius: 12upx;
+}
+.b-r-8{
+	border-radius: 16upx;
+}
+.b-r-12{
+	border-radius: 24upx;
+}
+.b-r-16{
+	border-radius: 32upx;
+}
+.b-r-22{
+	border-radius: 44upx;
+}
+.b-r-35{
+	border-radius: 70upx;
+}
+.b-r-50{
+	border-radius: 50%;
+}
+
+/* 内外边距样式 */
+.m-b-5{
+	margin-bottom: 10upx;
+}
+.m-b-8{
+	margin-bottom: 16upx;
+}
+.m-b-10{
+	margin-bottom: 20upx;
+}
+.m-b-20{
+	margin-bottom: 40upx;
+}
+.m-b-30{
+	margin-bottom: 60upx;
+}
+.m-l-5{
+	margin-left: 10upx;
+}
+.m-l-10{
+	margin-left: 20upx;
+}
+.m-l-20{
+	margin-left: 40upx;
+}
+.m-r-10{
+	margin-right: 20upx;
+}
+.m-t-16{
+	margin-top: 32upx;
+}
+.p-x-10{
+	padding:0 20upx;
+}
+.p-x-8{
+	padding:0 16upx;
+}
+.p-x-10{
+	padding:0 20upx;
+}
+.p-x-20{
+	padding:0 40upx;
+}
+.p-x-30{
+	padding:0 60upx;
+}
+.p-y-10{
+	padding:20upx 0;
+}
+.p-y-20{
+	padding:40upx 0;
+}
+.p-t-10{
+	padding-top:20upx;
+}
+.p-t-20{
+	padding-top:40upx;
+}
+.p-l-10{
+	padding-left:20upx;
+}
+.p-l-5{
+	padding-left:10upx;
+}
+.p-r-5{
+	padding-right: 10upx;
+}
+.p-r-10{
+	padding-right:20upx;
+}
+.p-r-20{
+	padding-right:40upx;
+}
+.p-r-15{
+	padding-right:15upx;
+}
+.p-10{
+	padding: 20upx;
+}
+.p-14{
+	padding: 28upx;
+}
+.p-20{
+	padding: 40upx;
+}
+.b-b{
+	box-sizing: border-box;
+}
+
+/* 字体样式 */
+.f-8{
+	font-size: 16upx;
+}
+.f-10{
+	font-size: 20upx;
+}
+.f-12{
+	font-size: 24upx;
+}
+.f-14{
+	font-size: 28upx;
+}
+.f-15{
+	font-size: 30upx;
+}
+.f-16{
+	font-size: 32upx;
+}
+.f-17{
+	font-size: 34upx;
+}
+.f-20{
+	font-size: 40upx;
+}
+.f-22{
+	font-size: 44upx;
+}
+.f-50{
+	font-size: 100upx;
+}
+.f-29{
+	font-size: 58upx;
+}
+.f-w-500{
+	font-weight: 500;
+}
+.f-w-600{
+	font-weight: 600;
+}
+.f-w-700{
+	font-weight: 700;
+}
+/* 字体颜色 */
+.c-white{
+	color: #FFFFFF;
+}
+.c-black{
+	color:#333333;
+}
+.ECB5AA{
+	color: #ECB5AA;
+}
+.ED7059{
+	color: #ED7059;
+}
+.b-c-w{
+	background-color: #FFFFFF;
+}
+
+/* 内容居中 */
+.t-c{
+	text-align: center;
+}
+
+/* 宽度样式 */
+.w-100{
+	width: 100%;
+}
+.h-100{
+	height: 100%;
+}
+

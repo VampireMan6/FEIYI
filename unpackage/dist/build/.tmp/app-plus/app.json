@@ -1,0 +1,57 @@
+{
+  "pages": [
+    "pages/new/new",
+    "pages/hot/hot",
+    "pages/tougao/tougao",
+    "pages/like/like",
+    "pages/center/center",
+    "pages/my/my",
+    "platforms/app-plus/login/login",
+    "pages/detail/detail"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "笑一波",
+    "navigationBarBackgroundColor": "#f44336",
+    "backgroundColor": "#ffffff"
+  },
+  "usingComponents": {},
+  "tabBar": {
+    "color": "#777777",
+    "selectedColor": "#f44336",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/new/new",
+        "iconPath": "static/index-0.png",
+        "selectedIconPath": "static/index-1.png",
+        "text": "最新"
+      },
+      {
+        "pagePath": "pages/hot/hot",
+        "iconPath": "static/hot-0.png",
+        "selectedIconPath": "static/hot-1.png",
+        "text": "最热"
+      },
+      {
+        "pagePath": "pages/tougao/tougao",
+        "iconPath": "static/tag-0.png",
+        "selectedIconPath": "static/tag-1.png",
+        "text": "投稿"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/center-0.png",
+        "selectedIconPath": "static/center-1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "splashscreen": {
+    "alwaysShowBeforeRender": false,
+    "autoclose": false
+  },
+  "appname": "笑一波"
+}

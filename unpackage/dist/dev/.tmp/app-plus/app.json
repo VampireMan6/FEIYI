@@ -1,0 +1,57 @@
+{
+  "pages": [
+    "pages/Tabbar-1/Home-page",
+    "pages/Tabbar-2/Tribal-page",
+    "pages/Tabbar-3/Classify-page",
+    "pages/Tabbar-4/Center-page",
+    "pages/Tabbar-1/Search/Search",
+    "pages/Tabbar-1/Remind/Remind"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "非遗",
+    "navigationBarBackgroundColor": "#ffffff",
+    "backgroundColor": "#000000"
+  },
+  "tabBar": {
+    "color": "#777777",
+    "selectedColor": "#f44336",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/Tabbar-1/Home-page",
+        "iconPath": "static/tabbar-icon/tabbar-1-0.png",
+        "selectedIconPath": "static/tabbar-icon/tabbar-1-1.png",
+        "text": "大观"
+      },
+      {
+        "pagePath": "pages/Tabbar-2/Tribal-page",
+        "iconPath": "static/tabbar-icon/tabbar-2-0.png",
+        "selectedIconPath": "static/tabbar-icon/tabbar-2-1.png",
+        "text": "部落"
+      },
+      {
+        "pagePath": "pages/Tabbar-3/Classify-page",
+        "iconPath": "static/tabbar-icon/tabbar-3-0.png",
+        "selectedIconPath": "static/tabbar-icon/tabbar-3-1.png",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/Tabbar-4/Center-page",
+        "iconPath": "static/tabbar-icon/tabbar-4-0.png",
+        "selectedIconPath": "static/tabbar-icon/tabbar-4-1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "nvueCompiler": "weex",
+  "renderer": "auto",
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "非遗",
+  "compilerVersion": "2.3.7",
+  "usingComponents": {}
+}

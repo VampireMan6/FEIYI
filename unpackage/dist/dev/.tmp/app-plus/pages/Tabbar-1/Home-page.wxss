@@ -1,0 +1,78 @@
+@charset "UTF-8";
+.container {
+  /* 轮播样式 */
+  /* 轮播指示点样式 */
+  /* 顶部搜索 提示图标样式 */
+}
+.container .swiper {
+    height: 750rpx;
+}
+.container .dots {
+    top: 680rpx;
+    left: 610rpx;
+    z-index: 99;
+}
+.container .dots .dot {
+      width: 10rpx;
+      height: 10rpx;
+      background-color: rgba(255, 255, 255, 0.5);
+      -webkit-transition: all .6s;
+      -o-transition: all .6s;
+      transition: all .6s;
+}
+.container .dots .active {
+      width: 20rpx;
+      height: 10rpx;
+      background-color: #FFFFFF;
+      border-radius: 14rpx;
+}
+.container .img {
+    top: 112rpx;
+    left: 576rpx;
+}
+.container .img .search-img {
+      width: 44rpx;
+      height: 44rpx;
+}
+.container .img .remind-img {
+      width: 40rpx;
+      height: 44rpx;
+      margin-left: 50rpx;
+}
+.container .content {
+    top: -40rpx;
+    z-index: 999;
+}
+.container .content .nav {
+      height: 220rpx;
+      padding: 40rpx 60rpx;
+      background-color: #FFFFFF;
+      -webkit-box-shadow: 0rpx 12rpx #F8F8F8;
+              box-shadow: 0rpx 12rpx #F8F8F8;
+}
+.container .content .nav .nav-img {
+        width: 70rpx;
+        height: 80rpx;
+}
+.container .content .platform-announcement {
+      height: 100rpx;
+      background-color: #F8F8F8;
+      padding: 28rpx 0 28rpx 28rpx;
+}
+.container .content .platform-announcement .platform-announcement-img {
+        width: 50rpx;
+        height: 44rpx;
+}
+.container .content .plan {
+      height: 140rpx;
+      background-color: #333333;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+}
+.container .content .today-recommended .time .today-time-img {
+      width: 36rpx;
+      height: 20rpx;
+}
+

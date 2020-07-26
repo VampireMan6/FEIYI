@@ -1,0 +1,2 @@
+<import src="./tougao.vue.wxml" />
+    <template is="21cbad1c" data="{{ ...$root['0'], $root }}"/>
